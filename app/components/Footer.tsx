@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
             <p className="text-white">
                 © 2024 Corentin Fournier |{' '}
                 <a
-                    href="https://github.com/Aikuu"
+                    href="https://github.com/CorentinF234"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white-500 hover:underline"
