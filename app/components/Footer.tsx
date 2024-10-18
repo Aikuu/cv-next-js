@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
                     href="https://github.com/Aikuu"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline"
+                    className="text-white-500 hover:underline"
                 >
                     GitHub
                 </a>{' '}
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
                     href="https://www.linkedin.com/in/corentin-fournier-586a94295/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline"
+                    className="text-white-500 hover:underline"
                 >
                     LinkedIn
                 </a>
