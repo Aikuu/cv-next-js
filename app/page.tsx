@@ -9,12 +9,12 @@ import "@/app/styles/globals.css";
 
 const Home: React.FC = () => {
     return (
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 bg-gray-900 text-white min-h-screen">
             <Head>
                 <title>CV - Corentin Fournier</title>
             </Head>
             <Header />
-            <main>
+            <main className="my-8">
                 <Experience />
                 <Education />
                 <Skills />

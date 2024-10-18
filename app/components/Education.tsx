@@ -20,13 +20,13 @@ const educationData: EducationItem[] = [
 
 const Education: React.FC = () => {
     return (
-        <section className="my-8">
-            <h3 className="text-2xl font-bold mb-4">Formation</h3>
+        <section className="my-8 bg-black p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-bold mb-4 text-blue-500">Formation</h3>
             {educationData.map((edu, index) => (
                 <div key={index} className="mb-6">
-                    <h4 className="text-xl font-semibold">{edu.degree}</h4>
-                    <p className="text-gray-500">{edu.institution}</p>
-                    <p className="mt-2"><strong>{edu.duration}</strong></p>
+                    <h4 className="text-xl font-semibold text-white">{edu.degree}</h4>
+                    <p className="text-gray-400">{edu.institution}</p>
+                    <p className="mt-2 text-blue-300">{edu.duration}</p>
                 </div>
             ))}
         </section>
